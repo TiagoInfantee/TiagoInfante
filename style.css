@@ -22,28 +22,26 @@ h1 {
   text-align: center;
 }
 
-.repositorios {
-  list-style-type: none;
-  padding: 0;
-  margin: 20px auto;
-  max-width: 600px;
+.repositorio-btn {
   text-align: center;
+  margin: 30px auto;
 }
 
-.repositorios li {
+.repositorio-btn a {
   background-color: #35576b;
-  margin: 10px 0;
-  padding: 10px;
+  color: #e0e2e4;
+  padding: 10px 20px;
   border-radius: 4px;
+  text-decoration: none;
   font-size: 18px;
-  text-align: center;
+  display: inline-block;
+  transition: background-color 0.3s ease;
 }
 
-.repositorios a {
-  color: #e0e2e4;
-  text-decoration: none;
-  display: block;
+.repositorio-btn a:hover {
+  background-color: #2a4454;
 }
+
 
 .texto {
   flex: 1;
@@ -193,6 +191,7 @@ h2 {
     gap: 10px;
   }
 }
+
 
 
 
