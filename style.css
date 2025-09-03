@@ -23,11 +23,26 @@ h1 {
 }
 
 .repositorios {
-align-items: center;
-list-style-type: none;
-padding: 0;
-margin: 20px auto;
-max-width: 600px;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.repositorios li {
+  background-color: #35576b;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.repositorios a {
+  color: #e0e2e4;
+  text-decoration: none;
+  display: block;
 }
 
 .texto {
@@ -178,5 +193,6 @@ h2 {
     gap: 10px;
   }
 }
+
 
 
