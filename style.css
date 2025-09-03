@@ -24,6 +24,10 @@ h1 {
 
 .repositorios {
 align-items: center;
+list-style-type: none;
+padding: 0;
+margin: 20px auto;
+max-width: 600px;
 }
 
 .texto {
@@ -174,4 +178,5 @@ h2 {
     gap: 10px;
   }
 }
+
 
